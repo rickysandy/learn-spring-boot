@@ -17,7 +17,7 @@ public class CourseController {
 		return List.of(new Course(1,"Learn Microservice","in30mins"), new Course(2,"Learn Cloud","in 6 days"));
 	}
 	
-	// http://localhost:8080/courses/1
+	// http://localhost:8080/courses/2
 	
 	@GetMapping("/courses/3")
 	public Course getCourseDetails() {
